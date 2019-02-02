@@ -2,7 +2,7 @@
 let fullName = user => {
   let { name: { first = '', last = '' } } = user
 
-    return first + ' ' + last
+  return first + ' ' + last
 }
 
 console.log(fullName({}))
